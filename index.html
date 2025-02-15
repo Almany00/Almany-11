@@ -1,0 +1,150 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تعلم البرمجة والأمن السيبراني</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>تعلم البرمجة والأمن السيبراني</h1>
+        <nav>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">البرمجة</a></li>
+                <li><a href="#">الأمن السيبراني</a></li>
+                <li><a href="#">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content">
+        <h2>مقدمة عن البرمجة</h2>
+        <p>البرمجة هي عملية كتابة تعليمات وأوامر لتوجيه الكمبيوتر لتنفيذ مهام محددة. يتم ذلك باستخدام لغات برمجة مثل Python و JavaScript و C++.</p>
+        
+        <h3>أشهر لغات البرمجة</h3>
+        <ul>
+            <li><strong>Python</strong> - سهلة التعلم ومستخدمة في الذكاء الاصطناعي.</li>
+            <li><strong>JavaScript</strong> - تُستخدم في تطوير الويب.</li>
+            <li><strong>C++</strong> - تُستخدم في تطوير الألعاب والتطبيقات الكبيرة.</li>
+        </ul>
+
+        <h2>مقدمة عن الأمن السيبراني</h2>
+        <p>الأمن السيبراني هو حماية الأنظمة والشبكات من الهجمات الإلكترونية. يهدف إلى تأمين البيانات ومنع الاختراقات.</p>
+        
+        <h3>أهم مجالات الأمن السيبراني</h3>
+        <ul>
+            <li><strong>اختبار الاختراق</strong> - محاكاة هجمات لاختبار أمان الأنظمة.</li>
+            <li><strong>تحليل البرمجيات الضارة</strong> - دراسة الفيروسات والبرمجيات الخبيثة.</li>
+            <li><strong>الأمن السحابي</strong> - حماية البيانات المخزنة عبر الإنترنت.</li>
+        </ul>
+    </section>
+
+    <section class="social-media">
+        <h3>تواصل معنا</h3>
+        <a href="https://chat.whatsapp.com/JaBv4rEjfWRCt7pKUGnmTF" target="_blank" class="social-icon whatsapp"></a>
+        <a href="https://www.facebook.com/share/1Y7cGUkNjV/" target="_blank" class="social-icon facebook"></a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 جميع الحقوق محفوظة</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html><style>body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #000;
+    color: white;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.content {
+    padding: 50px;
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2, h3 {
+    color: #007bff;
+}
+
+ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+.social-media {
+    margin: 30px 0;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    background-size: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.whatsapp {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg');
+}
+
+.facebook {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg');
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+    filter: brightness(1.5);
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}</style><script>document.addEventListener("DOMContentLoaded", function () {
+    const toggleModeBtn = document.getElementById("toggleMode");
+    const body = document.body;
+
+    // تبديل الوضع الليلي والنهاري
+    toggleModeBtn.addEventListener("click", function () {
+        body.classList.toggle("dark-mode");
+
+        if (body.classList.contains("dark-mode")) {
+            toggleModeBtn.textContent = "الوضع النهاري";
+        } else {
+            toggleModeBtn.textContent = "الوضع الليلي";
+        }
+    });
+});</script>
